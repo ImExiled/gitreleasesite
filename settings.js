@@ -1,7 +1,8 @@
 var UserSettings = {
     // User defined settings that we can load.
-    pageTitle: "Website 123", // The website title.
-    pageHeadTitle: "Website 1234", // The website title that is displayed in the top left.
+    pageTitle: "Pressure2", // The website title.
+    pageHeadTitle: "Pressure<sup>2</sup>", // The website title that is displayed in the top left.
+    downloadBtnTitle: "Download Pressure<sup>2</sup>",
     gitLink: "https://api.github.com/repos/dirtdiglett/pressure2/releases", // This is the link that grabs update information.
     advanced: {
         // Advanced site things, such as configurable functions and advanced multi-variables.
