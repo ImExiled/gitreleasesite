@@ -48,6 +48,8 @@ var API = {
         $('title').html(UserSettings.pageTitle);
         $('#headlink').html(UserSettings.pageHeadTitle);
         $('#AppButton').html(UserSettings.downloadBtnTitle);
+        $('#AboutTitle').html("About " + UserSettings.pageHeadTitle);
+        $('#AboutSectionText').html(UserSettings.aboutSectionText);
         if( !UserSettings.advanced.useVersionCheck ) {
             // If its set to false.
             console.warn("[INTERNAL] [US] Version checking is disabled!");
